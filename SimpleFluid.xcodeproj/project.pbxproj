@@ -127,12 +127,10 @@
 		1A864F00197C1AAA00D8387B /* GLEssentialsGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A864EFB197C1AAA00D8387B /* GLEssentialsGLView.mm */; };
 		1A864F01197C1AAA00D8387B /* GLEssentialsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A864EFD197C1AAA00D8387B /* GLEssentialsWindowController.m */; };
 		1A864F09197C1ACC00D8387B /* BaseShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A864F04197C1ACC00D8387B /* BaseShader.cpp */; };
-		1A864F0A197C1ACC00D8387B /* BillboardShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A864F06197C1ACC00D8387B /* BillboardShader.cpp */; };
-		1A864F0B197C1ACC00D8387B /* FeedbackShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A864F08197C1ACC00D8387B /* FeedbackShader.cpp */; };
-		1A864F11197C1ADB00D8387B /* feedback.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1A864F0D197C1ADB00D8387B /* feedback.vsh */; };
-		1A864F12197C1ADB00D8387B /* billboard.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1A864F0E197C1ADB00D8387B /* billboard.fsh */; };
-		1A864F13197C1ADB00D8387B /* billboard.gsh in Resources */ = {isa = PBXBuildFile; fileRef = 1A864F0F197C1ADB00D8387B /* billboard.gsh */; };
-		1A864F14197C1ADB00D8387B /* billboard.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1A864F10197C1ADB00D8387B /* billboard.vsh */; };
+		1AAA4D03197C551600234B67 /* billboard.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA4CFE197C551600234B67 /* billboard.fsh */; };
+		1AAA4D04197C551600234B67 /* billboard.gsh in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA4CFF197C551600234B67 /* billboard.gsh */; };
+		1AAA4D05197C551600234B67 /* billboard.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1AAA4D00197C551600234B67 /* billboard.vsh */; };
+		1AAA4D06197C551600234B67 /* BillboardShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AAA4D01197C551600234B67 /* BillboardShader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -426,14 +424,11 @@
 		1A864EFD197C1AAA00D8387B /* GLEssentialsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLEssentialsWindowController.m; sourceTree = "<group>"; };
 		1A864F03197C1ACC00D8387B /* BaseShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseShader.h; sourceTree = "<group>"; };
 		1A864F04197C1ACC00D8387B /* BaseShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseShader.cpp; sourceTree = "<group>"; };
-		1A864F05197C1ACC00D8387B /* BillboardShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillboardShader.h; sourceTree = "<group>"; };
-		1A864F06197C1ACC00D8387B /* BillboardShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BillboardShader.cpp; sourceTree = "<group>"; };
-		1A864F07197C1ACC00D8387B /* FeedbackShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackShader.h; sourceTree = "<group>"; };
-		1A864F08197C1ACC00D8387B /* FeedbackShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FeedbackShader.cpp; sourceTree = "<group>"; };
-		1A864F0D197C1ADB00D8387B /* feedback.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = feedback.vsh; sourceTree = "<group>"; };
-		1A864F0E197C1ADB00D8387B /* billboard.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = billboard.fsh; sourceTree = "<group>"; };
-		1A864F0F197C1ADB00D8387B /* billboard.gsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = billboard.gsh; sourceTree = "<group>"; };
-		1A864F10197C1ADB00D8387B /* billboard.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = billboard.vsh; sourceTree = "<group>"; };
+		1AAA4CFE197C551600234B67 /* billboard.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = billboard.fsh; sourceTree = "<group>"; };
+		1AAA4CFF197C551600234B67 /* billboard.gsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = billboard.gsh; sourceTree = "<group>"; };
+		1AAA4D00197C551600234B67 /* billboard.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = billboard.vsh; sourceTree = "<group>"; };
+		1AAA4D01197C551600234B67 /* BillboardShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BillboardShader.cpp; sourceTree = "<group>"; };
+		1AAA4D02197C551600234B67 /* BillboardShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillboardShader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -849,10 +844,8 @@
 			children = (
 				1A864F03197C1ACC00D8387B /* BaseShader.h */,
 				1A864F04197C1ACC00D8387B /* BaseShader.cpp */,
-				1A864F05197C1ACC00D8387B /* BillboardShader.h */,
-				1A864F06197C1ACC00D8387B /* BillboardShader.cpp */,
-				1A864F07197C1ACC00D8387B /* FeedbackShader.h */,
-				1A864F08197C1ACC00D8387B /* FeedbackShader.cpp */,
+				1AAA4D01197C551600234B67 /* BillboardShader.cpp */,
+				1AAA4D02197C551600234B67 /* BillboardShader.h */,
 			);
 			name = "Shader Classes";
 			sourceTree = "<group>";
@@ -860,10 +853,9 @@
 		1A864F15197C1AE000D8387B /* Shaders */ = {
 			isa = PBXGroup;
 			children = (
-				1A864F0D197C1ADB00D8387B /* feedback.vsh */,
-				1A864F0E197C1ADB00D8387B /* billboard.fsh */,
-				1A864F0F197C1ADB00D8387B /* billboard.gsh */,
-				1A864F10197C1ADB00D8387B /* billboard.vsh */,
+				1AAA4CFE197C551600234B67 /* billboard.fsh */,
+				1AAA4CFF197C551600234B67 /* billboard.gsh */,
+				1AAA4D00197C551600234B67 /* billboard.vsh */,
 			);
 			name = Shaders;
 			sourceTree = "<group>";
@@ -953,7 +945,6 @@
 				1A864E8D197C1A6A00D8387B /* intrinsic_matrix.inl in Resources */,
 				1A864E98197C1A6A00D8387B /* type_mat3x3.inl in Resources */,
 				1A864EC6197C1A6A00D8387B /* matrix_interpolation.inl in Resources */,
-				1A864F14197C1ADB00D8387B /* billboard.vsh in Resources */,
 				1A864EAE197C1A6A00D8387B /* ulp.inl in Resources */,
 				1A864E83197C1A6A00D8387B /* func_matrix.inl in Resources */,
 				1A864EC9197C1A6A00D8387B /* matrix_query.inl in Resources */,
@@ -977,7 +968,6 @@
 				1A864ED2197C1A6A00D8387B /* orthonormalize.inl in Resources */,
 				1A864EAD197C1A6A00D8387B /* type_ptr.inl in Resources */,
 				1A864EC8197C1A6A00D8387B /* matrix_operation.inl in Resources */,
-				1A864F12197C1ADB00D8387B /* billboard.fsh in Resources */,
 				1A864E96197C1A6A00D8387B /* type_mat2x4.inl in Resources */,
 				1A864EB7197C1A6A00D8387B /* euler_angles.inl in Resources */,
 				1A864E82197C1A6A00D8387B /* func_integer.inl in Resources */,
@@ -985,6 +975,7 @@
 				1A864E97197C1A6A00D8387B /* type_mat3x2.inl in Resources */,
 				1A864E99197C1A6A00D8387B /* type_mat3x4.inl in Resources */,
 				1A864EB1197C1A6A00D8387B /* closest_point.inl in Resources */,
+				1AAA4D03197C551600234B67 /* billboard.fsh in Resources */,
 				1A864ECE197C1A6A00D8387B /* normal.inl in Resources */,
 				1A864EDD197C1A6A00D8387B /* simd_vec4.inl in Resources */,
 				1A864EA4197C1A6A00D8387B /* matrix_access.inl in Resources */,
@@ -996,6 +987,7 @@
 				1A864EE6197C1A6A00D8387B /* vector_query.inl in Resources */,
 				1A864ECB197C1A6A00D8387B /* mixed_product.inl in Resources */,
 				1A864E8E197C1A6A00D8387B /* intrinsic_trigonometric.inl in Resources */,
+				1AAA4D04197C551600234B67 /* billboard.gsh in Resources */,
 				1A864EBF197C1A6A00D8387B /* inertia.inl in Resources */,
 				1A864E9A197C1A6A00D8387B /* type_mat4x2.inl in Resources */,
 				1A864ED9197C1A6A00D8387B /* rotate_vector.inl in Resources */,
@@ -1011,7 +1003,6 @@
 				1A864ECC197C1A6A00D8387B /* multiple.inl in Resources */,
 				1A864EBA197C1A6A00D8387B /* fast_exponential.inl in Resources */,
 				1A864E8C197C1A6A00D8387B /* intrinsic_integer.inl in Resources */,
-				1A864F13197C1ADB00D8387B /* billboard.gsh in Resources */,
 				1A864EC1197C1A6A00D8387B /* integer.inl in Resources */,
 				1A864ED5197C1A6A00D8387B /* projection.inl in Resources */,
 				1A864EC7197C1A6A00D8387B /* matrix_major_storage.inl in Resources */,
@@ -1026,6 +1017,7 @@
 				1A864E8B197C1A6A00D8387B /* intrinsic_geometric.inl in Resources */,
 				1A864EE7197C1A6A00D8387B /* wrap.inl in Resources */,
 				1A864EA1197C1A6A00D8387B /* type_vec4.inl in Resources */,
+				1AAA4D05197C551600234B67 /* billboard.vsh in Resources */,
 				1A864E7F197C1A6A00D8387B /* func_common.inl in Resources */,
 				1A864ED4197C1A6A00D8387B /* polar_coordinates.inl in Resources */,
 				1A864EDB197C1A6A00D8387B /* simd_mat4.inl in Resources */,
@@ -1055,7 +1047,6 @@
 				1A864EB2197C1A6A00D8387B /* color_space.inl in Resources */,
 				1A864EBD197C1A6A00D8387B /* gradient_paint.inl in Resources */,
 				1A864EA8197C1A6A00D8387B /* packing.inl in Resources */,
-				1A864F11197C1ADB00D8387B /* feedback.vsh in Resources */,
 				1A864EFE197C1AAA00D8387B /* MainMenu.xib in Resources */,
 				1A864E87197C1A6A00D8387B /* func_vector_relational.inl in Resources */,
 				1A864E94197C1A6A00D8387B /* type_mat2x2.inl in Resources */,
@@ -1085,8 +1076,7 @@
 				1A864EF1197C1A7D00D8387B /* ObjModelLoader.cpp in Sources */,
 				1A864E7E197C1A6A00D8387B /* dummy.cpp in Sources */,
 				1A864F01197C1AAA00D8387B /* GLEssentialsWindowController.m in Sources */,
-				1A864F0B197C1ACC00D8387B /* FeedbackShader.cpp in Sources */,
-				1A864F0A197C1ACC00D8387B /* BillboardShader.cpp in Sources */,
+				1AAA4D06197C551600234B67 /* BillboardShader.cpp in Sources */,
 				1A864EEF197C1A7D00D8387B /* Utils.cpp in Sources */,
 				1A864D5E197C1A4300D8387B /* main.m in Sources */,
 				1A864F00197C1AAA00D8387B /* GLEssentialsGLView.mm in Sources */,
@@ -1265,6 +1255,7 @@
 				1A864D77197C1A4300D8387B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A864D78197C1A4300D8387B /* Build configuration list for PBXNativeTarget "SimpleFluidTests" */ = {
 			isa = XCConfigurationList;
@@ -1273,6 +1264,7 @@
 				1A864D7A197C1A4300D8387B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
