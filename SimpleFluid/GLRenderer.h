@@ -31,6 +31,7 @@ private:
     void freeGLBindings() const;
     
     void initBillboardShader();
+    void drawScreenAlignedQuad(const unsigned int attrHandle) const;
     
     glm::mat4 mProjectionMatrix;
     glm::mat4 mViewMatrix;

@@ -9,6 +9,13 @@
 #include "GLRenderer.h"
 #include "BillboardShader.h"
 
+// Helper constant buffer for drawing screen-aligned quads
+static const float SKY_QUAD_COORDS[] = { -1.0f, -1.0f, -1.0f, 1.0f,
+    1.0f, -1.0f, -1.0f, 1.0f,
+    -1.0f,  1.0f, -1.0f, 1.0f,
+    1.0f,  1.0f, -1.0f, 1.0f
+};
+
 void GLRenderer::initOpenGL() {
     glClearColor(0.f, 0.f, 0.f, 1.0f);
     mViewWidth = 1200;
@@ -51,6 +58,17 @@ void GLRenderer::reshape(int width, int height) {
     mMouseWidth = fwidth.x /= fwidth.w;
     mMouseHeight = fwidth.y /= fwidth.w;
     createFrameBuffers();
+}
+
+void GLRenderer::drawScreenAlignedQuad(const unsigned int attrHandle) const
+{
+    glVertexAttribPointer(attrHandle, 4, GL_FLOAT, GL_FALSE, 4 * sizeof(float),
+                          SKY_QUAD_COORDS);
+    glEnableVertexAttribArray(attrHandle);
+    
+    glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+    
+    glDisableVertexAttribArray(attrHandle);
 }
 
 void GLRenderer::freeGLBindings(void) const
